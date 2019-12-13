@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="MULE_CFGs">
+        <df name="Bikes">
+        </df>
+      </df>
+      <df name="resources">
+      </df>
+      <df name="scripts">
+        <df name="matlab">
+          <in>QM.m</in>
+          <in>immse.m</in>
+          <in>main.m</in>
+          <in>residues_analyzer.m</in>
+          <in>rgb2ycbcrn.m</in>
+        </df>
+      </df>
+      <df name="source">
+        <df name="mule">
+          <in>Aritmetico.cpp</in>
+          <in>Aritmetico.h</in>
+          <in>Block4D.cpp</in>
+          <in>Block4D.h</in>
+          <in>Hierarchical4DDecoder.cpp</in>
+          <in>Hierarchical4DDecoder.h</in>
+          <in>Hierarchical4DEncoder.cpp</in>
+          <in>Hierarchical4DEncoder.h</in>
+          <in>LightField.cpp</in>
+          <in>LightField.h</in>
+          <in>Matrix.cpp</in>
+          <in>Matrix.h</in>
+          <in>MultiscaleTransform.cpp</in>
+          <in>MultiscaleTransform.h</in>
+          <in>PartitionDecoder.cpp</in>
+          <in>PartitionDecoder.h</in>
+          <in>Prediction.cpp</in>
+          <in>Prediction.h</in>
+          <in>Statistics.cpp</in>
+          <in>Statistics.h</in>
+          <in>TransformPartition.cpp</in>
+          <in>TransformPartition.h</in>
+          <in>View.cpp</in>
+          <in>View.h</in>
+          <in>decoder.cpp</in>
+          <in>encoder.cpp</in>
+        </df>
+        <df name="thirdpartlibs">
+          <in>CLI11.hpp</in>
+          <in>contains.hpp</in>
+          <in>join.h</in>
+          <in>json.hh</in>
+          <in>split.h</in>
+        </df>
+        <in>CodecType.cpp</in>
+        <in>CodecType.hh</in>
+        <in>CoderSetup.cpp</in>
+        <in>CoderSetup.hh</in>
+        <in>Decoder.cpp</in>
+        <in>Decoder.hh</in>
+        <in>DecoderSetup.cpp</in>
+        <in>DecoderSetup.hh</in>
+        <in>Encoder.cpp</in>
+        <in>Encoder.hh</in>
+        <in>IOManager.cpp</in>
+        <in>IOManager.hh</in>
+        <in>KakaduDecoderWrapper.cpp</in>
+        <in>KakaduDecoderWrapper.hh</in>
+        <in>KakaduEncoderWrapper.cpp</in>
+        <in>KakaduEncoderWrapper.hh</in>
+        <in>Matrix2D.hh</in>
+        <in>MuLEDecoder.cpp</in>
+        <in>MuLEDecoder.hh</in>
+        <in>MuLEDecoderWrapper.cpp</in>
+        <in>MuLEDecoderWrapper.hh</in>
+        <in>MuLEEncoder.cpp</in>
+        <in>MuLEEncoder.hh</in>
+        <in>MuLEncoderWrapper.cpp</in>
+        <in>MuLEncoderWrapper.hh</in>
+        <in>SparseToDenseLFSynthesizer.cpp</in>
+        <in>SparseToDenseLFSynthesizer.hh</in>
+        <in>Unshifter.cpp</in>
+        <in>Unshifter.hh</in>
+        <in>WaSPDecoder.cpp</in>
+        <in>WaSPDecoder.hh</in>
+        <in>WaSPEncoder.cpp</in>
+        <in>WaSPEncoder.hh</in>
+        <in>bitdepth.hh</in>
+        <in>clip.hh</in>
+        <in>codestream.cpp</in>
+        <in>codestream.hh</in>
+        <in>exceptions.hh</in>
+        <in>fastols.cpp</in>
+        <in>fastols.hh</in>
+        <in>fileaux.cpp</in>
+        <in>fileaux.hh</in>
+        <in>inpainting.cpp</in>
+        <in>inpainting.hh</in>
+        <in>iolog.cpp</in>
+        <in>iolog.hh</in>
+        <in>jpl-vm20-decoder.cpp</in>
+        <in>jpl-vm20-encoder.cpp</in>
+        <in>medianfilter.hh</in>
+        <in>merging.cpp</in>
+        <in>merging.hh</in>
+        <in>minconf.cpp</in>
+        <in>minconf.hh</in>
+        <in>ppm.cpp</in>
+        <in>ppm.hh</in>
+        <in>predictdepth.cpp</in>
+        <in>predictdepth.hh</in>
+        <in>psnr.cpp</in>
+        <in>psnr.hh</in>
+        <in>residualjp2.cpp</in>
+        <in>residualjp2.hh</in>
+        <in>sparsefilter.cpp</in>
+        <in>sparsefilter.hh</in>
+        <in>view.cpp</in>
+        <in>view.hh</in>
+        <in>warping.cpp</in>
+        <in>warping.hh</in>
+        <in>ycbcr.cpp</in>
+        <in>ycbcr.hh</in>
+      </df>
+      <df name="VS">
+        <df name="wasp-decoder">
+        </df>
+        <df name="wasp-encoder">
+        </df>
+        <df name="WaSP-MuLE-4D">
+          <df name="WaSP-MuLE-4D-decoder">
+          </df>
+          <df name="WaSP-MuLE-4D-encoder">
+          </df>
+        </df>
+      </df>
+      <df name="wasp-decoder">
+      </df>
+      <df name="wasp-encoder">
+      </df>
+      <df name="WASP_CFGs">
+        <df name="greek">
+        </df>
+        <df name="I01_Bikes">
+        </df>
+        <df name="I02_Danger_de_Mort">
+        </df>
+        <df name="I04_Stone_Pillars_Outside">
+        </df>
+        <df name="I09_Fountain_Vincent_2">
+        </df>
+        <df name="poznanlab1">
+        </df>
+        <df name="set2">
+        </df>
+        <df name="sideboard">
+        </df>
+        <df name="tarot">
+        </df>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
